@@ -15,8 +15,8 @@ void Ax_b(int m, int n, double* A, double* x, double* b) {
 }
 
 int main() {
-    int m = 10000; // número de filas de la matriz A y elementos en el vector b
-    int n = 10000; // número de columnas de la matriz A y elementos en el vector x
+    int m = 20000; // número de filas de la matriz A y elementos en el vector b
+    int n = 20000; // número de columnas de la matriz A y elementos en el vector x
     
     double *A = (double *)malloc(m * n * sizeof(double)); // matriz A
     double *x = (double *)malloc(n * sizeof(double)); // vector x
